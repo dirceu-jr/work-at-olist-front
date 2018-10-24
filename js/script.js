@@ -6,6 +6,7 @@ var Signup = (function() {
         email,
         password,
         confirm_password,
+        submit_button,
 
         first_requirement,
         second_requirement,
@@ -27,6 +28,8 @@ var Signup = (function() {
         email = document.getElementById("email");
         password = document.getElementById("password");
         confirm_password = document.getElementById("confirm_password");
+        submit_button = document.getElementById("submit_button");
+        
         first_requirement = document.getElementById("first_requirement");
         second_requirement = document.getElementById("second_requirement");
         third_requirement = document.getElementById("third_requirement"); 
@@ -179,9 +182,8 @@ var Signup = (function() {
 
         var valid = verify_name() && verify_email() && verify_password() && verify_confirm_password();
 
-        
-
         if (valid) {
+            submit_button.value = "Carregando...";
             return true;
         } else {
             e.preventDefault();

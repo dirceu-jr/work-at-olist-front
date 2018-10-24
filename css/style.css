@@ -93,3 +93,25 @@ fieldset {
     margin: 8px 0 16px 0;
 }
 
+#submit_button {
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+}
+
+#submit_button:hover {
+    opacity: 0.75;
+}
+
+.confirmation {
+    display: block;
+    margin: 92px auto 0;
+}
+
+.right {
+    font-size: 22px;
+}
+
+#allright {
+    width: 249px;
+    margin: 0 auto 90px auto;
+}
