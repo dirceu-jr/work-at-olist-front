@@ -2,4 +2,94 @@ body {
     background: #F5F5FB;
     margin: 0;
     padding: 0;
+    /* default system font */
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    font-weight: medium;
 }
+
+#signup {
+    width: 509px;
+    border: #F2F2F2 3px solid;
+    background: #fff;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.logotype {
+    margin: 60px 0 24px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 37px 0;
+}
+
+#signup form {
+    width: 375px;
+    text-align: left;
+    margin: 0 auto;
+    
+}
+
+#signup form label {
+    display: block;
+    color: #696D8C;
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+#signup form input {
+    width: 349px;
+    border: 1px solid #B6B9D0;
+    padding: 12px;
+    box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    color: #312F4F;
+    /* font-family: Soleil; */
+}
+
+#signup input[type=button] {
+    background: #17D499;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    width: 375px;
+    margin: 8px 0 24px 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+}
+
+#requeriments {
+    margin: 0;
+    clear: both;
+    padding-left: 28px;
+}
+
+#requeriments li {
+    font-size: 30px;
+    color: #EAEAF4;
+    line-height: 26px;
+}
+
+#requeriments li span {
+    font-size: 16px;
+    color: #696D8C;
+}
+
+#strength div {
+    width: 119px;
+    height: 8px;
+    background: #EAEAF4;
+    border-radius: 3px;
+    float: left;
+    margin: 8px 8px 16px 0;
+}
+#strength div:last-child {
+    margin: 8px 0 16px 0;
+}
+

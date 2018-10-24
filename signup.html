@@ -6,11 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bem-vindo a olist</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 </head>
 <body>
     <div id="signup">
-        <img src="./img/logotype.png" alt="olist" width="88">
-        
+        <img src="./img/logotype.png" alt="olist" width="88" class="logotype">
+        <p class="title">Crie sua conta</p>
+        <form action="">
+            <fieldset>
+                <label for="name">Nome completo</label>
+                <input type="text" id="name">
+            </fieldset>
+            <fieldset>
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+            </fieldset>
+            <fieldset>
+                <label for="password">Senha</label>
+                <input type="password" id="password">
+                <div id="strength">
+                    <div id="low"></div>
+                    <div id="medium"></div>
+                    <div id="high"></div>
+                </div>
+                <ul id="requeriments">
+                    <li><span>Pelo menos 6 caracteres</span></li>
+                    <li><span>Pelo menos 1 letra maiúscula</span></li>
+                    <li><span>Pelo menos 1 número</span></li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <label for="confirm_password">Confirme sua senha</label>
+                <input type="password" id="confirm_password">
+            </fieldset>
+            <fieldset>
+                <input type="button" value="Criar conta" />
+            </fieldset>
+        </form>
     </div>
     <script src="js/script.js"></script>
 </body>
