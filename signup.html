@@ -12,14 +12,14 @@
     <div id="signup">
         <img src="./img/logotype.png" alt="olist" width="88" class="logotype">
         <p class="title">Crie sua conta</p>
-        <form action="">
+        <form action="" id="signup_form">
             <fieldset>
                 <label for="name">Nome completo</label>
                 <input type="text" id="name">
             </fieldset>
             <fieldset>
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input type="email" id="email">
             </fieldset>
             <fieldset>
                 <label for="password">Senha</label>
@@ -29,10 +29,10 @@
                     <div id="medium"></div>
                     <div id="high"></div>
                 </div>
-                <ul id="requeriments">
-                    <li><span>Pelo menos 6 caracteres</span></li>
-                    <li><span>Pelo menos 1 letra maiúscula</span></li>
-                    <li><span>Pelo menos 1 número</span></li>
+                <ul id="requirements">
+                    <li id="first_requirement"><span>Pelo menos 6 caracteres</span></li>
+                    <li id="second_requirement"><span>Pelo menos 1 letra maiúscula</span></li>
+                    <li id="third_requirement"><span>Pelo menos 1 número</span></li>
                 </ul>
             </fieldset>
             <fieldset>
@@ -40,7 +40,7 @@
                 <input type="password" id="confirm_password">
             </fieldset>
             <fieldset>
-                <input type="button" value="Criar conta" />
+                <input type="submit" value="Criar conta" />
             </fieldset>
         </form>
     </div>

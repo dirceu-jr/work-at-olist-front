@@ -12,7 +12,7 @@ body {
     border: #F2F2F2 3px solid;
     background: #fff;
     text-align: center;
-    margin: 80px auto;
+    margin: 40px auto;
 }
 
 .logotype {
@@ -49,7 +49,7 @@ body {
     /* font-family: Soleil; */
 }
 
-#signup input[type=button] {
+#signup input[type=submit] {
     background: #17D499;
     border: 0;
     color: #fff;
@@ -64,19 +64,19 @@ fieldset {
     margin: 0 0 24px 0;
 }
 
-#requeriments {
+#requirements {
     margin: 0;
     clear: both;
     padding-left: 28px;
 }
 
-#requeriments li {
+#requirements li {
     font-size: 30px;
     color: #EAEAF4;
     line-height: 26px;
 }
 
-#requeriments li span {
+#requirements li span {
     font-size: 16px;
     color: #696D8C;
 }
