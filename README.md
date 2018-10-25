@@ -2,7 +2,7 @@
 > This is my job application project for olist
 
 It's a sign up page prototype in plain JavaScript.
-I wrote it using (VS Code)[https://code.visualstudio.com/] in macOS.
+I wrote it using [VS Code](https://code.visualstudio.com/) in macOS.
 
 ## Installing / Getting started
 
@@ -34,7 +34,3 @@ I've write a simple [Watir](http://watir.com/) test. You will need Ruby then:
 gem install watir
 ruby test/test.rb
 ```
-
-## Licensing
-
-State what the license is and how to find the text version of the license.
