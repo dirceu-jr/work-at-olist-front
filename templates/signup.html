@@ -15,15 +15,15 @@
         <form action="/confirmation" id="signup_form">
             <fieldset>
                 <label for="name">Nome completo</label>
-                <input type="text" id="name">
+                <input type="text" id="name" name="name">
             </fieldset>
             <fieldset>
                 <label for="email">E-mail</label>
-                <input type="email" id="email">
+                <input type="email" id="email" name="email">
             </fieldset>
             <fieldset>
                 <label for="password">Senha</label>
-                <input type="password" id="password">
+                <input type="password" id="password" name="password">
                 <div id="strength">
                     <div id="low"></div>
                     <div id="medium"></div>
@@ -37,7 +37,7 @@
             </fieldset>
             <fieldset>
                 <label for="confirm_password">Confirme sua senha</label>
-                <input type="password" id="confirm_password">
+                <input type="password" id="confirm_password" name="confirm_password">
             </fieldset>
             <fieldset>
                 <input type="submit" value="Criar conta" id="submit_button" />
