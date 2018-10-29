@@ -6,6 +6,8 @@ browser.goto 'http://localhost:5000/'
 
 browser.element(tag_name: 'input', id: 'submit_button').click
 
+p browser.p(class: "right").exists?
+
 sleep 1
 
 browser.text_field(id: "name").when_present.set("test name")
@@ -17,8 +19,8 @@ sleep 1
 
 browser.element(tag_name: 'input', id: 'submit_button').click
 
-element = browser.div(class: "right")
+sleep 1
 
-p element.text
+p browser.p(class: "right").exists?
 
 sleep 1
