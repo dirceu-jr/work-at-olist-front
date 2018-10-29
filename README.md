@@ -1,4 +1,4 @@
-# Work at olist Frontend &middot;
+# Work at olist Frontend
 > This is my job application project for olist
 
 It's a sign up page prototype in plain JavaScript.
@@ -12,7 +12,8 @@ You will need Python then you can do
 ## Developing
 
 ### Built With
-It's plain HTML, CSS and JavaScript
+It's plain HTML, CSS and JavaScript wrapped in Flask (Python web framework) app.
+Main JS file is /static/js/script.js
 
 ### Prerequisites
 Python is required as it is wrapped in Flask app
