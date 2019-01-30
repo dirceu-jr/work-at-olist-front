@@ -1,31 +1,14 @@
-# Work at olist Frontend
-> This is my job application project for olist
+#Olist
+Olist is a company that offers an integration platform for sellers and marketplaces allowing them to sell their products across multiple channels.
 
-It's a sign up page prototype in plain JavaScript.
-I wrote it using [VS Code](https://code.visualstudio.com/) in macOS.
-
-## Installing / Getting started
-
-You will need Python then you can do
-`pip install -r requirements.txt`
+# Work at olist Front-end
+> This is my job application test for olist
 
 ## Developing
 
 ### Built With
-It's plain HTML, CSS and JavaScript wrapped in Flask (Python web framework) app.
-Main JS file is /static/js/script.js
-
-### Prerequisites
-Python is required as it is wrapped in Flask app
-
-### Setting up Dev
-
-```shell
-git clone https://github.com/dirceup/work-at-olist-front.git
-cd work-at-olist-front/
-pip install -r requirements.txt
-flask run
-```
+It's a sign up page prototype in plain HTML, CSS and JavaScript..
+I wrote it using [VS Code](https://code.visualstudio.com/) in macOS.
 
 ## Tests
 
