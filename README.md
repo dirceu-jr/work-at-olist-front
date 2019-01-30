@@ -1,4 +1,5 @@
-##Olist
+# Olist
+
 Olist is a company that offers an integration platform for sellers and marketplaces allowing them to sell their products across multiple channels.
 
 # Work at olist Front-end
